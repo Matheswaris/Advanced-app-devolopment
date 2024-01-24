@@ -1,0 +1,64 @@
+/* Login.css */
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #3498db;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    margin-top: 15px;
+  }
+  
+  .forget-password {
+    color: #3498db;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .forget-password:hover {
+    color: #2c3e50;
+  }
+  
